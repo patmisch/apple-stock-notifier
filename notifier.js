@@ -10,11 +10,11 @@ function check() {
     const iPhoneUrlPart = "MN9D2LL%2FA";
     const iPhonePart = "MN9D2LL/A";
 
-    // const urlPart = airpodUrlPart;
-    // const part = airpodPart;
+    const urlPart = airpodUrlPart;
+    const part = airpodPart;
 
-	const urlPart = iPhoneUrlPart;
-	const part = iPhonePart;
+	// const urlPart = iPhoneUrlPart;
+	// const part = iPhonePart;
 
     fetch("http://www.apple.com/shop/retail/pickup-message?parts.0=" + urlPart + "&location=48230")
         .then(res => res.json())
